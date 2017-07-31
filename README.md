@@ -1,24 +1,22 @@
-# README
+# How to Run
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Clone repository https://github.com/jestir1234/amx_challenge.git
 
-Things you may want to cover:
+```
+$ git clone https://github.com/jestir1234/amx_challenge.git
+```
 
-* Ruby version
+- CD into folder amx_challenge and run rails s (requires ruby version 2.4.0 to be installed).
 
-* System dependencies
+```
+$ rails s
+```
 
-* Configuration
+- Within browser type in URL localhost:3000. You should see the page.
+![screenshot](./public/screenshot.png)
 
-* Database creation
+- Enter URL into the input box. Make sure it is formatted like so https://www.google.com. Click submit and raw html will render.
+![screenshot2](./public/screenshot2.png)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Click on elements to highlight all elements with related tags. Click again to unhighlight.
+![screenshot3](./public/screenshot3.png)
